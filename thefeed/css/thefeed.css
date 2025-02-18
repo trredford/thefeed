@@ -29,6 +29,7 @@ body {
     top: 300px;
     height: 26vh;
     padding: 20px;
+    padding-right: 18px;
     border: #85f748;
     border-style: solid;
     overflow: hidden;
