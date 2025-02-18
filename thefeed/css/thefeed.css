@@ -18,7 +18,7 @@ body {
 }
  .container {
     display: flex;
-    height: 100vh;
+    height: 120vh;
  }
 
  .left-panel {
@@ -38,7 +38,7 @@ body {
  .aboutme {
     align-items: center;
     padding: 10px;
-    font-size: 20 px;
+    font-size: 20px;
 
  }
 
