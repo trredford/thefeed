@@ -17,8 +17,10 @@ body {
     
 }
  .container {
+    margin: 10px;
     display: flex;
-    height: 120vh;
+    height: 240vh;
+    background-color: #85f748;
  }
 
  .left-panel {
@@ -26,23 +28,39 @@ body {
     width: 28%;
     position: fixed;
     left: 40px;
-    top: 300px;
-    height: 26vh;
-    padding: 20px;
-    padding-right: 18px;
+    top: 55px;
+    height: 80vh;
+    padding: 5px;
+    padding-right: 5px;
+    background-color: none;
     border: #85f748;
-    border-style: none;
-    overflow: hidden;
+    border: 1px;
+    align-content: center;
+    margin-bottom: 2px;
+    
    
  }
 
- .aboutme {
+ #aboutme {
+    margin: 30px;
     text-align: center;
     align-items: center;
-    padding: 10px;
-    font-size: 20px;
+    padding: 0px;
+    font-size: 24px;
+    border: #fafceb;
+    border: 1px;
+    
 
  }
+
+ #navbutton {
+    margin-top: 0px;
+    width: 20vh;
+    align-items: center;
+    padding-block: 2px;
+ }
+
+
 
  .right-content {
 
@@ -52,56 +70,32 @@ body {
  }
 
 
-
-#homebutton {
-    color: #da5079;
-    font-family: "Bebas Neue", serif;
-    font-weight: 800;
-    font-style: normal;
-    text-align: left;
-    text-decoration: none;
-    font-size: 30px;
-    background-color: #fafceb;
-    letter-spacing: 4px;
-    padding: 0%;
-    max-width: 20vh;
-    min-width: 20vh;
-    top: 0px;
-    left: 0px;
-    margin-top: 1%;
-    margin-left:1%;
-    
-    
-      
-}
-
 header{
-    align-content: center;
-    color: #85f748;
-    
+    margin-top: 20px;
 }
-
-
-
 .nav-container {
+    margin-top: 0px;
+    max-width: max-content;
+    position:fixed;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 15px;
+    gap: 61px;
     padding-top: 10px;
-    padding-bottom: 8px;
+    padding-bottom: 11px;
 }
 
 .nav-container a {
     text-decoration: none;
-    color: #85f748;
+    color: #3b403b;
     font-size: 20px;
     font-family: "Bebas Neue", serif;
     padding: 8px 15px;
     padding-bottom: 0px;
     border-radius: 5px;
     transition: 0.3s ease;
+    letter-spacing: 1px;
 
 }
 
@@ -110,7 +104,7 @@ header{
     color: #fafceb;
 }
 
-img {
+#phonepic {
     width: 40vh;
     border: #85f748;
     radius:15px;
@@ -141,9 +135,7 @@ h2,h3{
     
 }
 
-#upper {
-    background-color: #85f748;
-}
+
 
 .container {
     align-items: center;
@@ -168,19 +160,19 @@ video{
 p{
     align-items: center;
     align-content: center;
-    color: #85f748;
+    color: #4dcf08;
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-size: 20pt;
+    letter-spacing: 1pt;
 }
 h1 {
-    color: #fafceb;
+    color: #85f748;
     text-align: center;
     text-decoration: none;
-    font-size: 80px;
-    border-width: 10px;
+    font-size: 60px;
+    border-width: px;
     letter-spacing: 3px;
-    background-color: #85f748;
     align-content: center;
     font-family: "Pacifico", serif;
     .pacifico-regular {
