@@ -13,16 +13,19 @@ body {
   background-position: center;
   background-color: #fafceb; 
   background-size: 200px;
-  margin-top: 10px;
+  margin-top: 100px;
   margin-right: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
   padding: 1in;
+  background-image: center;
+  top: 50%;
+  bottom: 50%;
  
 }
 
 nav{
-    
+    width: fit-content;
     text-align: center;
     font-size: 200px;
     font-family: "Pacifico";
@@ -36,8 +39,14 @@ nav{
 nav p a{
 
     
-    color: #85f748;
+    color: #0dde45;
     text-decoration: none;
+    background-color: #fafceb;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+
 }
 
 

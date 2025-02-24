@@ -69,6 +69,15 @@ body {
     padding: 20px;
  }
 
+ section {
+    background-color: #85f748;
+    border-width: fit-content;
+    width: 45vh;
+    height: fit-content;
+   
+    
+ }
+
 
 header{
     margin-top: 20px;
@@ -84,11 +93,13 @@ header{
     gap: 61px;
     padding-top: 10px;
     padding-bottom: 11px;
+    background-color: #da5079;
 }
 
 .nav-container a {
     text-decoration: none;
     color: #3b403b;
+    background-color: #da5079;
     font-size: 20px;
     font-family: "Bebas Neue", serif;
     padding: 8px 15px;
@@ -106,25 +117,21 @@ header{
 
 #phonepic {
     width: 40vh;
-    border: #85f748;
-    radius:15px;
-    border-width: 20px;
-    border-style: solid;
-    border-radius: 15px;
+    
+    radius:15%;
+   
     padding: 0%;
   
 }
 
-h2,h3{
+section h2,h3{
     text-align: center;
-    color: #85f748;
+    color: #fafceb;
     text-decoration: none;
     font-size: 40px;
     letter-spacing: 4px;
-    border:#85f748;
-    border-width: 10px;
-    border-style: solid;
-    padding: .5%;
+    background: none;
+   padding-top: 3%;
     max-width: 40vh;
     min-width: 40vh;
     top: 0px;
@@ -147,12 +154,8 @@ h2,h3{
 
 video{
     max-width: 40vh;
-    border:#85f748;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 15px;
     padding: .5%;
-    radius: 15px;
+    radius: 20%;
     
 }
 
@@ -160,14 +163,23 @@ video{
 p{
     align-items: center;
     align-content: center;
+    background: none;
     color: #4dcf08;
     font-family: "Bebas Neue", serif;
     font-weight: 400;
-    font-size: 20pt;
+    font-size: 18pt;
     letter-spacing: 1pt;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+section p{
+    color: #fafceb;
+    width: 40vh;
 }
 h1 {
     color: #85f748;
+    background: none;
     text-align: center;
     text-decoration: none;
     font-size: 60px;
@@ -197,7 +209,8 @@ strong {
 }
 
 
-footer h1{
+
+footer h2{
     color: #85f748;
     text-align: center;
     text-decoration: none;
