@@ -24,6 +24,13 @@ body {
  
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
 nav{
     width: fit-content;
     text-align: center;
