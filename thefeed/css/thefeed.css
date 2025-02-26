@@ -84,7 +84,7 @@ header{
 }
 .nav-container {
     margin-top: 0px;
-    max-width: max-content;
+    width: 100%;
     position:fixed;
     display: flex;
     flex-direction: row;

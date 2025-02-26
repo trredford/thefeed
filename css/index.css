@@ -21,6 +21,7 @@ body {
   background-image: center;
   top: 50%;
   bottom: 50%;
+  flex-wrap: nowrap;
  
 }
 
@@ -28,7 +29,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    width: 60%;
+
 }
 
 nav{
